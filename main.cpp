@@ -3,6 +3,10 @@
 #include <math.h>
 #include <stdlib.h>
 #include "Tutorial_Config.h"
+#ifdef USE_MYMATH
+#include "MainFunctions.h"
+#endif
+
 int main(int argc, char* argv[])
 {
 	if(argc < 2)
@@ -13,7 +17,12 @@ int main(int argc, char* argv[])
 	}
 
 	double inputVal = atof(argv[1]);
+
+#ifdef USE_MYMATH
+	double outputVal = m_sqrt(inputVal);
+#else
 	double outputVal = sqrt(inputVal);
+#endif
 	std::cout << "Square root of " << inputVal << " = " << outputVal << std::endl;
 	return 0;
 
