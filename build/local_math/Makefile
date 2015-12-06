@@ -123,14 +123,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles /home/wayne/development/cmake_test/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/wayne/development/cmake_test/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles /home/wayne/development/cmake_test/build/local_math/CMakeFiles/progress.marks
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f CMakeFiles/Makefile2 local_math/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f CMakeFiles/Makefile2 local_math/clean
 .PHONY : clean
 
 # The main clean target
@@ -139,68 +139,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f CMakeFiles/Makefile2 local_math/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f CMakeFiles/Makefile2 local_math/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/wayne/development/cmake_test/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Tutorial
+# Convenience name for target.
+local_math/CMakeFiles/local_math.dir/rule:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f CMakeFiles/Makefile2 local_math/CMakeFiles/local_math.dir/rule
+.PHONY : local_math/CMakeFiles/local_math.dir/rule
 
-# Build rule for target.
-Tutorial: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Tutorial
-.PHONY : Tutorial
-
-# fast build rule for target.
-Tutorial/fast:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
-.PHONY : Tutorial/fast
-
-#=============================================================================
-# Target rules for targets named local_math
-
-# Build rule for target.
-local_math: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 local_math
+# Convenience name for target.
+local_math: local_math/CMakeFiles/local_math.dir/rule
 .PHONY : local_math
 
 # fast build rule for target.
 local_math/fast:
-	$(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/build
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/build
 .PHONY : local_math/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+m_sqrt.o: m_sqrt.cpp.o
+.PHONY : m_sqrt.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/main.cpp.o
-.PHONY : main.cpp.o
+m_sqrt.cpp.o:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.o
+.PHONY : m_sqrt.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+m_sqrt.i: m_sqrt.cpp.i
+.PHONY : m_sqrt.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/main.cpp.i
-.PHONY : main.cpp.i
+m_sqrt.cpp.i:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.i
+.PHONY : m_sqrt.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+m_sqrt.s: m_sqrt.cpp.s
+.PHONY : m_sqrt.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/main.cpp.s
-.PHONY : main.cpp.s
+m_sqrt.cpp.s:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.s
+.PHONY : m_sqrt.cpp.s
 
 # Help Target
 help:
@@ -214,12 +202,11 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... test"
-	@echo "... Tutorial"
-	@echo "... install/local"
 	@echo "... local_math"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... install/local"
+	@echo "... m_sqrt.o"
+	@echo "... m_sqrt.i"
+	@echo "... m_sqrt.s"
 .PHONY : help
 
 
@@ -231,6 +218,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/wayne/development/cmake_test/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

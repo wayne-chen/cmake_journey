@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
+../local_math/local_math.h
+
 /home/wayne/development/cmake_test/main.cpp
-iostream
--
-string
--
-math.h
+stdio.h
 -
 stdlib.h
 -
-Tutorial_Config.h
-/home/wayne/development/cmake_test/Tutorial_Config.h
+math.h
+-
+TutorialConfig.h
+/home/wayne/development/cmake_test/TutorialConfig.h
+local_math.h
+/home/wayne/development/cmake_test/local_math.h
 
-Tutorial_Config.h
+TutorialConfig.h
 

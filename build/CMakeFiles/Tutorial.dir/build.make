@@ -81,6 +81,7 @@ Tutorial_EXTERNAL_OBJECTS =
 
 Tutorial: CMakeFiles/Tutorial.dir/main.cpp.o
 Tutorial: CMakeFiles/Tutorial.dir/build.make
+Tutorial: local_math/liblocal_math.a
 Tutorial: CMakeFiles/Tutorial.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable Tutorial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tutorial.dir/link.txt --verbose=$(VERBOSE)

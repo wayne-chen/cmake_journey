@@ -8,12 +8,13 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../Tutorial_Config.h.in"
+  "../TutorialConfig.h.in"
   "CMakeFiles/3.2.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.2.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.2.2/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
+  "../local_math/CMakeLists.txt"
   "/usr/share/cmake-3.2/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.2/Modules/CMakeCInformation.cmake"
@@ -104,11 +105,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.2.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.2.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.2.2/CMakeCXXCompiler.cmake"
-  "Tutorial_Config.h"
+  "TutorialConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "local_math/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Tutorial.dir/DependInfo.cmake"
+  "local_math/CMakeFiles/local_math.dir/DependInfo.cmake"
   )

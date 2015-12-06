@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wayne/development/cmake_test/main.cpp" "/home/wayne/development/cmake_test/build/CMakeFiles/Tutorial.dir/main.cpp.o"
+  "/home/wayne/development/cmake_test/local_math/m_sqrt.cpp" "/home/wayne/development/cmake_test/build/local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/wayne/development/cmake_test/build/local_math/CMakeFiles/local_math.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
