@@ -1,10 +1,10 @@
-Start testing: Dec 05 16:37 PST
+Start testing: Dec 05 16:52 PST
 ----------------------------------------------------------
 1/11 Testing: TutorialRuns
 1/11 Test: TutorialRuns
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "25"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialRuns" start time: Dec 05 16:37 PST
+"TutorialRuns" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 Computing sqrt of 25 to be 13
@@ -22,7 +22,7 @@ The square root of 25 is 5
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TutorialRuns" end time: Dec 05 16:37 PST
+"TutorialRuns" end time: Dec 05 16:52 PST
 "TutorialRuns" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/11 Test: TutorialComp25
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "25"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialComp25" start time: Dec 05 16:37 PST
+"TutorialComp25" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 Computing sqrt of 25 to be 13
@@ -50,7 +50,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[25 is 5
 ]
-"TutorialComp25" end time: Dec 05 16:37 PST
+"TutorialComp25" end time: Dec 05 16:52 PST
 "TutorialComp25" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Required regular expression found.Regex=[25 is 5
 3/11 Test: TutorialNegative
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "-25"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialNegative" start time: Dec 05 16:37 PST
+"TutorialNegative" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 The square root of -25 is 0
@@ -68,7 +68,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[-25 is 0
 ]
-"TutorialNegative" end time: Dec 05 16:37 PST
+"TutorialNegative" end time: Dec 05 16:52 PST
 "TutorialNegative" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -76,7 +76,7 @@ Required regular expression found.Regex=[-25 is 0
 4/11 Test: TutorialSmall
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "0.0001"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialSmall" start time: Dec 05 16:37 PST
+"TutorialSmall" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 Computing sqrt of 0.0001 to be 0.50005
@@ -96,7 +96,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[0.0001 is 0.01
 ]
-"TutorialSmall" end time: Dec 05 16:37 PST
+"TutorialSmall" end time: Dec 05 16:52 PST
 "TutorialSmall" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -104,7 +104,7 @@ Required regular expression found.Regex=[0.0001 is 0.01
 5/11 Test: TutorialUsage
 Command: "/home/wayne/development/cmake_test/build/Tutorial"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialUsage" start time: Dec 05 16:37 PST
+"TutorialUsage" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 /home/wayne/development/cmake_test/build/Tutorial Version 1.0
@@ -115,7 +115,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[Usage:.*number
 ]
-"TutorialUsage" end time: Dec 05 16:37 PST
+"TutorialUsage" end time: Dec 05 16:52 PST
 "TutorialUsage" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -123,7 +123,7 @@ Required regular expression found.Regex=[Usage:.*number
 6/11 Test: TutorialComp4
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "4"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialComp4" start time: Dec 05 16:37 PST
+"TutorialComp4" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 Computing sqrt of 4 to be 2.5
@@ -143,7 +143,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[4 is 2
 ]
-"TutorialComp4" end time: Dec 05 16:37 PST
+"TutorialComp4" end time: Dec 05 16:52 PST
 "TutorialComp4" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -151,7 +151,7 @@ Required regular expression found.Regex=[4 is 2
 7/11 Test: TutorialComp9
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "9"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialComp9" start time: Dec 05 16:37 PST
+"TutorialComp9" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 Computing sqrt of 9 to be 5
@@ -171,7 +171,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[9 is 3
 ]
-"TutorialComp9" end time: Dec 05 16:37 PST
+"TutorialComp9" end time: Dec 05 16:52 PST
 "TutorialComp9" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -179,7 +179,7 @@ Required regular expression found.Regex=[9 is 3
 8/11 Test: TutorialComp5
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "5"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialComp5" start time: Dec 05 16:37 PST
+"TutorialComp5" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 Computing sqrt of 5 to be 3
@@ -199,7 +199,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[5 is 2.236
 ]
-"TutorialComp5" end time: Dec 05 16:37 PST
+"TutorialComp5" end time: Dec 05 16:52 PST
 "TutorialComp5" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -207,7 +207,7 @@ Required regular expression found.Regex=[5 is 2.236
 9/11 Test: TutorialComp7
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "7"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialComp7" start time: Dec 05 16:37 PST
+"TutorialComp7" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 Computing sqrt of 7 to be 4
@@ -227,7 +227,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[7 is 2.645
 ]
-"TutorialComp7" end time: Dec 05 16:37 PST
+"TutorialComp7" end time: Dec 05 16:52 PST
 "TutorialComp7" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -235,7 +235,7 @@ Required regular expression found.Regex=[7 is 2.645
 10/11 Test: TutorialComp-25
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "-25"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialComp-25" start time: Dec 05 16:37 PST
+"TutorialComp-25" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 The square root of -25 is 0
@@ -245,7 +245,7 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[-25 is 0
 ]
-"TutorialComp-25" end time: Dec 05 16:37 PST
+"TutorialComp-25" end time: Dec 05 16:52 PST
 "TutorialComp-25" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -253,7 +253,7 @@ Required regular expression found.Regex=[-25 is 0
 11/11 Test: TutorialComp0.0001
 Command: "/home/wayne/development/cmake_test/build/Tutorial" "0.0001"
 Directory: /home/wayne/development/cmake_test/build
-"TutorialComp0.0001" start time: Dec 05 16:37 PST
+"TutorialComp0.0001" start time: Dec 05 16:52 PST
 Output:
 ----------------------------------------------------------
 Computing sqrt of 0.0001 to be 0.50005
@@ -273,8 +273,8 @@ Test time =   0.00 sec
 Test Pass Reason:
 Required regular expression found.Regex=[0.0001 is 0.01
 ]
-"TutorialComp0.0001" end time: Dec 05 16:37 PST
+"TutorialComp0.0001" end time: Dec 05 16:52 PST
 "TutorialComp0.0001" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 05 16:37 PST
+End testing: Dec 05 16:52 PST
