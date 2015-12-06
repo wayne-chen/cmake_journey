@@ -1,3 +1,0 @@
-/home/wayne/development/cmake_test/build/local_math/CMakeFiles/make_table.dir
-/home/wayne/development/cmake_test/build/local_math/CMakeFiles/local_math.dir
-/home/wayne/development/cmake_test/build/CMakeFiles/Tutorial.dir
