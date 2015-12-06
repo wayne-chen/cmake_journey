@@ -1,0 +1,2 @@
+/usr/bin/ar cq liblocal_math.a  CMakeFiles/local_math.dir/m_sqrt.cpp.o
+/usr/bin/ranlib liblocal_math.a
