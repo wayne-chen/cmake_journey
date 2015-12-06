@@ -66,3 +66,11 @@ set_tests_properties (TutorialUsage
   PROPERTIES 
   PASS_REGULAR_EXPRESSION "Usage:.*number"
   )
+
+# does the system provide log and exp functions
+include (CheckFunctionExists)
+check_function_exists(log HAVE_LOG)
+check_function_exists(exp HAVE_EXP)
+
+
+
