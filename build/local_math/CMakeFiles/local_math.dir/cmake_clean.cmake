@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "table.h"
   "CMakeFiles/local_math.dir/m_sqrt.cpp.o"
   "liblocal_math.pdb"
   "liblocal_math.a"

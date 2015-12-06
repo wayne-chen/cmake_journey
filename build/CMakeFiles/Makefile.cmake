@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../TutorialConfig.h.in"
+  "../Tutorial_Config.h.in"
   "CMakeFiles/3.2.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.2.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.2.2/CMakeSystem.cmake"
@@ -41,6 +41,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.2/Modules/CMakeTestCXXCompiler.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeTestCompilerCommon.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeUnixFindMake.cmake"
+  "/usr/share/cmake-3.2/Modules/CheckFunctionExists.c"
+  "/usr/share/cmake-3.2/Modules/CheckFunctionExists.cmake"
   "/usr/share/cmake-3.2/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake-3.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
   "/usr/share/cmake-3.2/Modules/Compiler/Borland-DetermineCompiler.cmake"
@@ -113,5 +115,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Tutorial.dir/DependInfo.cmake"
+  "local_math/CMakeFiles/make_table.dir/DependInfo.cmake"
   "local_math/CMakeFiles/local_math.dir/DependInfo.cmake"
   )

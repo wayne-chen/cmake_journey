@@ -69,7 +69,7 @@ all: CMakeFiles/Tutorial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Tutorial.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 0
 .PHONY : CMakeFiles/Tutorial.dir/rule
@@ -92,10 +92,12 @@ clean: CMakeFiles/Tutorial.dir/clean
 
 # Convenience name for "all" pass in the directory.
 local_math/all: local_math/CMakeFiles/local_math.dir/all
+local_math/all: local_math/CMakeFiles/make_table.dir/all
 .PHONY : local_math/all
 
 # Convenience name for "clean" pass in the directory.
 local_math/clean: local_math/CMakeFiles/local_math.dir/clean
+local_math/clean: local_math/CMakeFiles/make_table.dir/clean
 .PHONY : local_math/clean
 
 # Convenience name for "preinstall" pass in the directory.
@@ -106,10 +108,10 @@ local_math/preinstall:
 # Target rules for target local_math/CMakeFiles/local_math.dir
 
 # All Build rule for target.
-local_math/CMakeFiles/local_math.dir/all:
+local_math/CMakeFiles/local_math.dir/all: local_math/CMakeFiles/make_table.dir/all
 	$(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/depend
 	$(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wayne/development/cmake_test/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wayne/development/cmake_test/build/CMakeFiles  2 3
 	@echo "Built target local_math"
 .PHONY : local_math/CMakeFiles/local_math.dir/all
 
@@ -119,7 +121,7 @@ all: local_math/CMakeFiles/local_math.dir/all
 
 # Build rule for subdir invocation for target.
 local_math/CMakeFiles/local_math.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 local_math/CMakeFiles/local_math.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 0
 .PHONY : local_math/CMakeFiles/local_math.dir/rule
@@ -135,6 +137,41 @@ local_math/CMakeFiles/local_math.dir/clean:
 
 # clean rule for target.
 clean: local_math/CMakeFiles/local_math.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target local_math/CMakeFiles/make_table.dir
+
+# All Build rule for target.
+local_math/CMakeFiles/make_table.dir/all:
+	$(MAKE) -f local_math/CMakeFiles/make_table.dir/build.make local_math/CMakeFiles/make_table.dir/depend
+	$(MAKE) -f local_math/CMakeFiles/make_table.dir/build.make local_math/CMakeFiles/make_table.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wayne/development/cmake_test/build/CMakeFiles  4
+	@echo "Built target make_table"
+.PHONY : local_math/CMakeFiles/make_table.dir/all
+
+# Include target in all.
+all: local_math/CMakeFiles/make_table.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+local_math/CMakeFiles/make_table.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 local_math/CMakeFiles/make_table.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wayne/development/cmake_test/build/CMakeFiles 0
+.PHONY : local_math/CMakeFiles/make_table.dir/rule
+
+# Convenience name for target.
+make_table: local_math/CMakeFiles/make_table.dir/rule
+.PHONY : make_table
+
+# clean rule for target.
+local_math/CMakeFiles/make_table.dir/clean:
+	$(MAKE) -f local_math/CMakeFiles/make_table.dir/build.make local_math/CMakeFiles/make_table.dir/clean
+.PHONY : local_math/CMakeFiles/make_table.dir/clean
+
+# clean rule for target.
+clean: local_math/CMakeFiles/make_table.dir/clean
 .PHONY : clean
 
 #=============================================================================

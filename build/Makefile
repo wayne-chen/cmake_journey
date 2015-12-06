@@ -178,6 +178,19 @@ local_math/fast:
 	$(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/build
 .PHONY : local_math/fast
 
+#=============================================================================
+# Target rules for targets named make_table
+
+# Build rule for target.
+make_table: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 make_table
+.PHONY : make_table
+
+# fast build rule for target.
+make_table/fast:
+	$(MAKE) -f local_math/CMakeFiles/make_table.dir/build.make local_math/CMakeFiles/make_table.dir/build
+.PHONY : make_table/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -216,6 +229,7 @@ help:
 	@echo "... test"
 	@echo "... Tutorial"
 	@echo "... install/local"
+	@echo "... make_table"
 	@echo "... local_math"
 	@echo "... main.o"
 	@echo "... main.i"

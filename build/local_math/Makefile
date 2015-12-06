@@ -166,6 +166,20 @@ local_math/fast:
 	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/build
 .PHONY : local_math/fast
 
+# Convenience name for target.
+local_math/CMakeFiles/make_table.dir/rule:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f CMakeFiles/Makefile2 local_math/CMakeFiles/make_table.dir/rule
+.PHONY : local_math/CMakeFiles/make_table.dir/rule
+
+# Convenience name for target.
+make_table: local_math/CMakeFiles/make_table.dir/rule
+.PHONY : make_table
+
+# fast build rule for target.
+make_table/fast:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/make_table.dir/build.make local_math/CMakeFiles/make_table.dir/build
+.PHONY : make_table/fast
+
 m_sqrt.o: m_sqrt.cpp.o
 .PHONY : m_sqrt.o
 
@@ -190,6 +204,30 @@ m_sqrt.cpp.s:
 	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/local_math.dir/build.make local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.s
 .PHONY : m_sqrt.cpp.s
 
+make_table.o: make_table.cpp.o
+.PHONY : make_table.o
+
+# target to build an object file
+make_table.cpp.o:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/make_table.dir/build.make local_math/CMakeFiles/make_table.dir/make_table.cpp.o
+.PHONY : make_table.cpp.o
+
+make_table.i: make_table.cpp.i
+.PHONY : make_table.i
+
+# target to preprocess a source file
+make_table.cpp.i:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/make_table.dir/build.make local_math/CMakeFiles/make_table.dir/make_table.cpp.i
+.PHONY : make_table.cpp.i
+
+make_table.s: make_table.cpp.s
+.PHONY : make_table.s
+
+# target to generate assembly for a file
+make_table.cpp.s:
+	cd /home/wayne/development/cmake_test/build && $(MAKE) -f local_math/CMakeFiles/make_table.dir/build.make local_math/CMakeFiles/make_table.dir/make_table.cpp.s
+.PHONY : make_table.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,6 +235,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... make_table"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
@@ -207,6 +246,9 @@ help:
 	@echo "... m_sqrt.o"
 	@echo "... m_sqrt.i"
 	@echo "... m_sqrt.s"
+	@echo "... make_table.o"
+	@echo "... make_table.i"
+	@echo "... make_table.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wayne/development/cmake_test/local_math/m_sqrt.cpp" "/home/wayne/development/cmake_test/build/local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.o"
+  "/home/wayne/development/cmake_test/local_math/make_table.cpp" "/home/wayne/development/cmake_test/build/local_math/CMakeFiles/make_table.dir/make_table.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

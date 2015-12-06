@@ -49,9 +49,14 @@ include local_math/CMakeFiles/local_math.dir/progress.make
 # Include the compile flags for this target's objects.
 include local_math/CMakeFiles/local_math.dir/flags.make
 
+local_math/table.h: local_math/make_table
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wayne/development/cmake_test/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating table.h"
+	cd /home/wayne/development/cmake_test/build/local_math && ./make_table /home/wayne/development/cmake_test/build/local_math/table.h
+
 local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.o: local_math/CMakeFiles/local_math.dir/flags.make
 local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.o: ../local_math/m_sqrt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wayne/development/cmake_test/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wayne/development/cmake_test/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object local_math/CMakeFiles/local_math.dir/m_sqrt.cpp.o"
 	cd /home/wayne/development/cmake_test/build/local_math && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/local_math.dir/m_sqrt.cpp.o -c /home/wayne/development/cmake_test/local_math/m_sqrt.cpp
 
@@ -97,7 +102,7 @@ local_math/CMakeFiles/local_math.dir/clean:
 	cd /home/wayne/development/cmake_test/build/local_math && $(CMAKE_COMMAND) -P CMakeFiles/local_math.dir/cmake_clean.cmake
 .PHONY : local_math/CMakeFiles/local_math.dir/clean
 
-local_math/CMakeFiles/local_math.dir/depend:
+local_math/CMakeFiles/local_math.dir/depend: local_math/table.h
 	cd /home/wayne/development/cmake_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wayne/development/cmake_test /home/wayne/development/cmake_test/local_math /home/wayne/development/cmake_test/build /home/wayne/development/cmake_test/build/local_math /home/wayne/development/cmake_test/build/local_math/CMakeFiles/local_math.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : local_math/CMakeFiles/local_math.dir/depend
 
